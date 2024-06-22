@@ -71,11 +71,28 @@ table {
   cursor: pointer;
   background-color: #03b1c8;
 }
-
+.boton:hover{
+  background-color: azure;
+  color: #03b1c8;
+}
 ul {  
   padding-top: 100px;
   list-style: none;
 }
 
+#character-list{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10;
+  margin-top: 10;
+}
 
+.character-card{
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
 
+.character-card img{
+  max-width: 58%;
+}
